@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветочные Композиции от Клары</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5e9; /* Светлый кремовый, прованский стиль */
+            color: #5d4037; /* Темно-коричневый текст */
+            background-image: url('https://w.forfun.com/fetch/56/56b509efc86127b72d24249a5b3f2ffb.jpeg'); /* Изображение для фона */
+            background-repeat: repeat; /* Повторяем изображение, чтобы покрыть весь фон */
+            background-size: 200px; /* Размер плитки фона, можно настроить */
+            background-attachment: fixed; /* Фон не прокручивается со страницей */
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fcf9f0; /* Очень светлый бежевый, вместо белого */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.08); /* Чуть мягче тень */
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #e0d8cc; /* Немного темнее кремового */
+            border-bottom: 1px solid #c7bdae;
+            border-radius: 10px 10px 0 0; /* Скругление верхних углов */
+        }
+        h1 {
+            font-family: 'Lavishly Yours', cursive;
+            font-size: 3.5em;
+            color: #7b584d; /* Коричнево-розовый */
+            margin-bottom: 10px;
+        }
+        .clara-image {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .clara-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+        .promo-text {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #6a5146;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .product-card {
+            background-color: #fffaf0; /* Очень светлый, почти белый для карточек, чтобы выделить их */
+            border: 1px solid #d4c7bb;
+            border-radius: 8px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.08); /* Чуть мягче тень для карточек */
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 1px solid #d4c7bb;
+        }
+        .product-card h3 {
+            font-size: 1.5em;
+            color: #7b584d;
+            margin: 15px 0 10px;
+        }
+        .product-card p {
+            font-size: 1.1em;
+            color: #6a5146;
+            margin-bottom: 15px;
+        }
+        .product-card .price {
+            font-weight: bold;
+            color: #a0522d; /* Терракотовый, для цен */
+            font-size: 1.3em;
+        }
+        .contact-button {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .contact-button a {
+            display: inline-block;
+            background-color: #a0522d; /* Терракотовый цвет кнопки */
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        .contact-button a:hover {
+            background-color: #8c4728; /* Темнее при наведении */
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            background-color: #e0d8cc;
+            border-top: 1px solid #c7bdae;
+            color: #5d4037;
+            font-size: 0.9em;
+            border-radius: 0 0 10px 10px; /* Скругление нижних углов */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Цветочные Композиции от Клары</h1>
+            <p>Ваш источник прекрасных букетов ручной работы</p>
+        </header>
+
+        <div class="clara-image">
+            <img src="https://i.pinimg.com/originals/1b/ec/b0/1becb0041ca8c7f0dcfb49bbc9501b2c.jpg" alt="Капибара Клара">
+        </div>
+
+        <section class="promo-text">
+            <p>Погрузитесь в мир изысканных ароматов и нежных красок с Кларой, нашим талантливым флористом-капибарой. Каждая композиция создаётся с любовью и вниманием к деталям, чтобы принести радость и уют в ваш дом или стать идеальным подарком для близких. От классических букетов до уникальных аранжировок – Клара воплощает цветочные мечты в реальность!</p>
+        </section>
+
+        <section class="products">
+            <div class="product-card">
+                <img src="https://topflo.ru/upload/iblock/538/korzina-s-rozami-kallami-i-amarillisom.jpg" alt="Композиция 1">
+                <h3>Нежность Прованса</h3>
+                <p>Изящная корзина с розами, каллами и амариллисом.</p>
+                <p class="price">4500 руб.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/f3/5b/df/f35bdf999a6757eaa999c01bc0ef0d31.jpg" alt="Композиция 2">
+                <h3>Утренняя Роса</h3>
+                <p>Букет из пионов и эвкалипта, наполненный свежестью.</p>
+                <p class="price">3800 руб.</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/f1/f9/5c/f1f95c11321aa3d1494340c18f110227.jpg" alt="Композиция 3">
+                <h3>Полевые Мечты</h3>
+                <p>Воздушный букет из лаванды и диких трав.</p>
+                <p class="price">3200 руб.</p>
+            </div>
+        </section>
+
+        <div class="contact-button">
+            <a href="mailto:klara.florist@example.com">Написать Кларе</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Цветочные Композиции от Клары. Все права защищены.</p>
+    </footer>
+</body>
+</html>
